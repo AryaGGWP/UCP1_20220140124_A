@@ -1,0 +1,110 @@
+/* Custom styles */
+body {
+    padding-top: 56px;
+    background-color: #617283;
+}
+
+@media (max-width: 665px) {
+    body {
+        padding-top: 60px;
+    }
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.greeting {
+    font-size: 28px;
+    font-weight: bold;
+    color: #cfcfcf;
+}
+
+.datetime {
+    font-size: 18px;
+    color: #ebe9e9bb;
+}
+
+.carousel-item img {
+    max-height: 350px; 
+    object-fit: cover;
+}
+
+.carousel-item img {
+    border-radius: 8px;
+}
+
+.card {
+    border-radius: 8px;
+}
+
+.weather-info {
+    text-align: center;
+}
+
+.weather-location {
+    font-weight: bold;
+}
+
+.weather-condition {
+    color: #555555;
+}
+
+.weather-temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Weather icons */
+.fa-sun {
+    color: #FFD700; /* Yellow color for sun */
+}
+
+.fa-cloud {
+    color: #778899; /* Light grey color for cloud */
+}
+
+.fa-cloud-sun {
+    color: #B0C4DE; /* Light steel blue color for partly cloudy */
+}
+
+.fa-cloud-showers-heavy {
+    color: #4682B4; /* Steel blue color for showers */
+}
+
+/* Ganti warna latar belakang navbar */
+.navbar {
+    background-color: #4CAF50; /* Ubah warna sesuai preferensi */
+}
+
+/* Ganti warna teks navbar dan hover */
+.navbar-nav .nav-link {
+    color: #1098db; /* Warna teks */
+    transition: color 0.3s ease; /* Animasi perubahan warna saat hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Warna teks saat hover */
+}
+
+/* Ganti font dan ukuran teks */
+body {
+    font-family: 'Roboto', sans-serif; /* Ganti dengan font yang diinginkan */
+    font-size: 16px; /* Ukuran font */
+}
+
+/* Animasi tombol saat hover */
+.btn-primary:hover {
+    transform: translateY(-2px); /* Geser tombol ke atas saat hover */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+/* Efek hover pada card */
+.card {
+    transition: transform 0.3s ease; /* Animasi perubahan ukuran saat hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Perbesar card saat hover */
+}
